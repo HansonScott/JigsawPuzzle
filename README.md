@@ -2,10 +2,15 @@
 After hearing that jigsaw puzzle apps are a rising thing, and the concept of digitizing it is interesting to me.  Starting a project to research and prototype the technology of image manipulation, object organization, random piece generation, etc.
 
 Features:
-- puzzle variables:
-  - upload and image to use as the puzzle content.
-  - user-set grid size (number of pieces)
+- parent environment and puzzle collection
+  - keep list of all puzzles that have been created (uploaded/downloaded)
+  - keep status, dates, % complete, etc. of each puzzle
+- puzzle variables (especially for a new puzzle):
+  - upload an image to use as the puzzle content.
+  - manually set the grid size (number of pieces) (have a list of common sizes?)
   - complex edge variables for the piece generation
+    - an 'edge' is the line between two pieces
+    - 
   - options and variables to set the parameters of piece generation
 - playing field variables:
   - piece piles
