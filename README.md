@@ -8,8 +8,12 @@ Features:
   - complex edge variables for the piece generation
   - options and variables to set the parameters of piece generation
 - playing field variables:
-  - piece pile
+  - piece piles
   - final puzzle area
   - subjective groups
   - zooming from the overall 'table' area, across piles, pieces, and down into a piece, and even to an edge
-  - 
+- Interaction and playing the puzzle
+  - mouse move/click to pick up pieces and manipulate
+  - move a piece to a different pile
+  - move a piece to the final puzzle area
+  - confirmation of success?
