@@ -10,7 +10,10 @@ Features:
   - manually set the grid size (number of pieces) (have a list of common sizes?)
   - complex edge variables for the piece generation
     - an 'edge' is the line between two pieces
-    - 
+    - edge has three main areas: upper line, lower line, and middle feature
+    - for the lines: angle (10, 11, 12, 1, 2 o' clock orientation)
+    - for the middle feature: none, bulb, point - bulb and points have variations too (size, slopes, directions, etc.)
+    - combination should result in 100's of edges or 1000's.
   - options and variables to set the parameters of piece generation
 - playing field variables:
   - piece piles
