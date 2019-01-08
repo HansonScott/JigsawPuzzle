@@ -57,3 +57,7 @@ class objects:
 - piece - a clipped image with edges, with a link back to the parent puzzle
 - edge - a collection of settings that determine the connection to another piece, and drawing parameters
 - connection - a theoretical concept between two pieces and their orientation
+
+Notes:
+Basic reference to graphics clipping and drawing:
+https://code.msdn.microsoft.com/windowsdesktop/C-Jigsaw-Puzzle-Game-5f0b7a75
