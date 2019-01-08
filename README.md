@@ -17,7 +17,7 @@ Features:
   - option to start with all pieces face up vs mixed (especially important for 2-sided puzzles)
   - option to start with pieces overlapping in piles vs one-depth only.
   - piece variables
-    - x,y slot location in the picture
+    - x,y piece location in the picture
     - current x, y pixel location on the overal workspace
     - 4 edges
     - current pile it belongs to
@@ -52,6 +52,7 @@ Features:
 class objects:
 - workspace - the 'table' on which the puzzle is 'played', contains a puzzle and n piles, and piece locations
 - puzzle - the overall image
+- final puzzle area - the set location where the puzzle pieces end up and connected to the final picture
 - pile - a subset of pieces of a puzzle
 - piece - a clipped image with edges, with a link back to the parent puzzle
 - edge - a collection of settings that determine the connection to another piece, and drawing parameters
