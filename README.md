@@ -2,7 +2,7 @@
 After hearing that jigsaw puzzle apps are a rising thing, and the concept of digitizing it is interesting to me.  Starting a project to research and prototype the technology of image manipulation, object organization, random piece generation, etc.
 
 Features:
-- parent environment and puzzle collection
+- parent workspace and puzzle collection
   - keep list of all puzzles that have been created
   - fields at the puzzle level:
     - date created, date started, date completed
@@ -47,3 +47,12 @@ Features:
   - mouse wheel to zoom, or UI slider
   - move a piece to a different pile
   - move a piece to the final puzzle area
+
+
+class objects:
+- workspace - the 'table' on which the puzzle is 'played', contains a puzzle and n piles, and piece locations
+- puzzle - the overall image
+- pile - a subset of pieces of a puzzle
+- piece - a clipped image with edges, with a link back to the parent puzzle
+- edge - a collection of settings that determine the connection to another piece, and drawing parameters
+- connection - a theoretical concept between two pieces and their orientation
