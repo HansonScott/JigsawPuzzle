@@ -17,8 +17,10 @@ Features:
   - option to start with all pieces face up vs mixed (especially important for 2-sided puzzles)
   - option to start with pieces overlapping in piles vs one-depth only.
   - piece variables
-    - x,y piece location in the picture
-    - current x, y pixel location on the overal workspace
+    - x,y piece location (slot) within the picture (the ID)
+    - current x, y pixel location on the overal workspace (where the piece is)
+    - x, y, w, h, of the clip area for the final picture
+    - current rotation, where 0 means aligned with the final picture
     - 4 edges
     - current pile it belongs to
   - complex edge variables for the piece generation
