@@ -1,7 +1,7 @@
 # JigsawPuzzle
 After hearing that jigsaw puzzle apps are a rising thing, and the concept of digitizing it is interesting to me.  Starting a project to research and prototype the technology of image manipulation, object organization, random piece generation, etc.
 
-Features:
+## Features
 - parent workspace and puzzle collection
   - keep list of all puzzles that have been created
   - fields at the puzzle level:
@@ -50,8 +50,7 @@ Features:
   - move a piece to a different pile
   - move a piece to the final puzzle area
 
-
-class objects:
+## class objects
 - workspace - the 'table' on which the puzzle is 'played', contains a puzzle and n piles, and piece locations
 - puzzle - the overall image
 - final puzzle area - the set location where the puzzle pieces end up and connected to the final picture
@@ -60,6 +59,6 @@ class objects:
 - edge - a collection of settings that determine the connection to another piece, and drawing parameters
 - connection - a theoretical concept between two pieces and their orientation
 
-Notes:
+## Notes
 Basic reference to graphics clipping and drawing:
 https://code.msdn.microsoft.com/windowsdesktop/C-Jigsaw-Puzzle-Game-5f0b7a75
