@@ -1,6 +1,8 @@
 # JigsawPuzzle
 After hearing that jigsaw puzzle apps are a rising thing, and the concept of digitizing it is interesting to me.  Starting a project to research and prototype the technology of image manipulation, object organization, random piece generation, etc.
 
+Trello board: https://trello.com/b/17AarmeO
+
 ## Features
 - parent workspace and puzzle collection
   - keep list of all puzzles that have been created
