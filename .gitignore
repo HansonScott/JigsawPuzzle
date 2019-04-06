@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/JigsawPuzzle/.vs/JigsawPuzzle/v15
+/JigsawPuzzle/obj/Debug
+/JigsawPuzzle/bin/Debug
