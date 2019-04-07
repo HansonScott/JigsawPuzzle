@@ -29,5 +29,25 @@ namespace JigsawPuzzle
         {
             InitializeComponent();
         }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PuzzleCreatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
